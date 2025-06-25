@@ -19,7 +19,9 @@ body {
     box-sizing: border-box;
 }
 .logo {
-    width: 80px;
+    width: 80px; /* Define um tamanho ideal */
+    max-width: 100%; /* Garante que nunca seja maior que o container */
+    height: auto; /* Mantém a proporção da imagem */
     margin-bottom: 20px;
 }
 h1, h2 {
