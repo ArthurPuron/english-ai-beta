@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const successContainer = document.getElementById('success-container');
 
     // IMPORTANTE: Substitua pela URL do seu serviço no Cloud Run
-    const backendUrl = 'https://SUA-URL-AQUI.a.run.app/onboarding/signup';
+    const backendUrl = 'https://english-bot-766507386853.us-central1.run.app/onboarding/signup';
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
